@@ -1,0 +1,41 @@
+INFO: [HLS 200-10] Running 'E:/VIVADO/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Admin' on host 'tngduy' (Windows NT_amd64 version 6.2) on Thu Jul 23 15:15:49 +0700 2026
+INFO: [HLS 200-10] In directory 'E:/CENTOS7/shared/tiled_matmul_accelerator'
+Sourcing Tcl script 'E:/CENTOS7/shared/tiled_matmul_accelerator/mmult_accel_hls/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: source E:/CENTOS7/shared/tiled_matmul_accelerator/mmult_accel_hls/solution1/export.tcl
+INFO: [HLS 200-1510] Running: open_project mmult_accel_hls 
+INFO: [HLS 200-10] Opening project 'E:/CENTOS7/shared/tiled_matmul_accelerator/mmult_accel_hls'.
+INFO: [HLS 200-1510] Running: set_top mmult_accel 
+INFO: [HLS 200-1510] Running: add_files mmult_accel.cpp 
+INFO: [HLS 200-10] Adding design file 'mmult_accel.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files mmult_accel.hpp 
+INFO: [HLS 200-10] Adding design file 'mmult_accel.hpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb mmult_accel_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'mmult_accel_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'E:/CENTOS7/shared/tiled_matmul_accelerator/mmult_accel_hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xck26-sfvc784-2LV-c 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+Running Dispatch Server on port: 49726
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 399.859 ; gain = 49.305
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/VIVADO/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 23 15:17:36 2026...
+INFO: [HLS 200-802] Generated output file mmult_accel_hls/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 62 seconds. CPU system time: 10 seconds. Elapsed time: 96.527 seconds; current allocated memory: 41.789 MB.
+INFO: [HLS 200-112] Total CPU user time: 64 seconds. Total CPU system time: 11 seconds. Total elapsed time: 108.712 seconds; peak allocated memory: 147.281 MB.

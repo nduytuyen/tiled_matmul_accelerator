@@ -1,0 +1,43 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+make: 'csim.exe' is up to date.
+Running test case 0: N = 16, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0449364 s, GFLOPs: 0.420024
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.0437247 s, GFLOPs: 0.431664
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.0532082 s, GFLOPs: 0.354727
+   V projection Passed.
+Test case 0 Passed.
+Running test case 1: N = 32, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0507055 s, GFLOPs: 0.74447
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.0498117 s, GFLOPs: 0.757829
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.0455099 s, GFLOPs: 0.829462
+   V projection Passed.
+Test case 1 Passed.
+Running test case 2: N = 64, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0979822 s, GFLOPs: 0.770522
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.0884546 s, GFLOPs: 0.853517
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.118713 s, GFLOPs: 0.635968
+   V projection Passed.
+Test case 2 Passed.
+All test cases Passed.
+
+Performance Summary:
+  Average GFLOPs: 0.644243
+  Best GFLOPs: 0.853517 (N=64, K=768, M=768)
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

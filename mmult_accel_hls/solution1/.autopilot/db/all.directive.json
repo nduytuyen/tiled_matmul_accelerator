@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "mmult_accel",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "E:\/CENTOS7\/shared\/tiled_matmul_accelerator\/mmult_accel_hls\/solution1\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "mmult_accel"
+              }]
+          }
+        }]
+    }]}

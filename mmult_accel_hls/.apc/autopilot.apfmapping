@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mmult_accel.cpp" path="E:\CENTOS7\shared\tiled_matmul_accelerator\mmult_accel.cpp"/>
+    <originFiles name="mmult_accel.hpp" path="E:\CENTOS7\shared\tiled_matmul_accelerator\mmult_accel.hpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mmult_accel_tb.cpp" path="E:\CENTOS7\shared\tiled_matmul_accelerator\mmult_accel_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

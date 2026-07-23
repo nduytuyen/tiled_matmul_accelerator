@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk find *)",
+      "Bash(rtk read *)",
+      "Bash(rtk gain *)",
+      "Bash(ls -la \"/c/Users/Admin/.claude/projects/E--CENTOS7-shared-tiled-matmul-accelerator/memory/\" 2>&1)"
+    ]
+  }
+}

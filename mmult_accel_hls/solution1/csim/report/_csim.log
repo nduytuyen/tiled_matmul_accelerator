@@ -1,0 +1,45 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../mmult_accel_tb.cpp in debug mode
+   Compiling ../../../../mmult_accel.cpp in debug mode
+   Generating csim.exe
+Running test case 0: N = 16, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0470751 s, GFLOPs: 0.400942
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.0469737 s, GFLOPs: 0.401807
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.0495866 s, GFLOPs: 0.380634
+   V projection Passed.
+Test case 0 Passed.
+Running test case 1: N = 32, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0466686 s, GFLOPs: 0.808868
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.0458042 s, GFLOPs: 0.824133
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.0463557 s, GFLOPs: 0.814328
+   V projection Passed.
+Test case 1 Passed.
+Running test case 2: N = 64, K = 768, M = 768
+   Computing Q projection...
+   Q projection time: 0.0951456 s, GFLOPs: 0.793494
+   Q projection Passed.
+   Computing K projection...
+   K projection time: 0.135448 s, GFLOPs: 0.55739
+   K projection Passed.
+   Computing V projection...
+   V projection time: 0.130154 s, GFLOPs: 0.580063
+   V projection Passed.
+Test case 2 Passed.
+All test cases Passed.
+
+Performance Summary:
+  Average GFLOPs: 0.617962
+  Best GFLOPs: 0.824133 (N=32, K=768, M=768)
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

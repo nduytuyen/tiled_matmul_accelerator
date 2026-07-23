@@ -1,0 +1,28 @@
+<pragmas>
+<pragma file="mmult_accel.cpp" line="121" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="146" pragmaType="unroll" parentfunction="mmult_accel" factor="-1" skip_exit_check="0"/>
+<pragma file="mmult_accel.cpp" line="148" pragmaType="unroll" parentfunction="mmult_accel" factor="-1" skip_exit_check="0"/>
+<pragma file="mmult_accel.cpp" line="201" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="221" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="172" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="187" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="203" pragmaType="unroll" parentfunction="mmult_accel" factor="-1" skip_exit_check="0"/>
+<pragma file="mmult_accel.cpp" line="207" pragmaType="unroll" parentfunction="mmult_accel" factor="-1" skip_exit_check="0"/>
+<pragma file="mmult_accel.cpp" line="98" pragmaType="pipeline" parentfunction="mmult_accel" off="0" ii="1" rewind="0" style=""/>
+<pragma file="mmult_accel.cpp" line="66" pragmaType="interface" parentfunction="mmult_accel" mode="m_axi" port="A" bundle="gmemA" offset="slave" name="" depth="49152" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_accel.cpp" line="67" pragmaType="interface" parentfunction="mmult_accel" mode="m_axi" port="B" bundle="gmemB" offset="slave" name="" depth="589824" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_accel.cpp" line="68" pragmaType="interface" parentfunction="mmult_accel" mode="m_axi" port="C" bundle="gmemC" offset="slave" name="" depth="49152" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="mmult_accel.cpp" line="74" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="A" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="75" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="B" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="76" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="C" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="77" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="N" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="78" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="K" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="79" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="M" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="80" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="update_A" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="81" pragmaType="interface" parentfunction="mmult_accel" mode="s_axilite" port="" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+<pragma file="mmult_accel.cpp" line="89" pragmaType="bind_storage" parentfunction="mmult_accel" op="666" impl="22" latency="-1" variable="_ZZ11mmult_accelE6A_bram"/>
+<pragma file="mmult_accel.cpp" line="115" pragmaType="bind_storage" parentfunction="mmult_accel" op="666" impl="22" latency="-1" variable="B_bram"/>
+<pragma file="mmult_accel.cpp" line="140" pragmaType="array_partition" parentfunction="mmult_accel" dim="0" factor="0" mode="complete" dynamic="0" variable="localC"/>
+<pragma file="mmult_accel.cpp" line="157" pragmaType="array_partition" parentfunction="mmult_accel" dim="0" factor="0" mode="complete" dynamic="0" variable="localA"/>
+<pragma file="mmult_accel.cpp" line="158" pragmaType="array_partition" parentfunction="mmult_accel" dim="0" factor="0" mode="complete" dynamic="0" variable="localB"/>
+</pragmas>
