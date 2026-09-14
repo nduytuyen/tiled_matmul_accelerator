@@ -4,7 +4,11 @@
 - **Thiết kế 1**: Full HLS (Vitis HLS, C++), kiến trúc broadcast.
 - **Thiết kế 2**: Hybrid HLS+RTL, lõi tính toán là mảng systolic 32×32 tự viết RTL (Verilog/SystemVerilog).
 
-Repo gốc nằm tại: `E:\CENTOS7\shared\tiled_matmul_accelerator\`
+Repo gốc nằm tại: `E:\CENTOS7\shared\tiled_matmul_accelerator\` (Windows, máy hiện tại).
+
+**Trạng thái repo:** Toàn bộ nội dung đã được commit và push lên GitHub tại `https://github.com/nduytuyen/tiled_matmul_accelerator` (branch `main`). Nếu bạn (agent thực hiện copy) đang chạy trên máy khác hoặc không truy cập được đường dẫn Windows trên, có thể `git clone https://github.com/nduytuyen/tiled_matmul_accelerator.git` để lấy bản sao rồi copy từ đó — nội dung giống hệt.
+
+> Lưu ý: các file bị flag "rác/leftover" ở mục 4 dưới đây (`docs/anhpdf/b`, `docs/anhpdf/c`, `docs/_cors_server.py`, `.claude/launch.json`, `docs/design2/rtl/axi4_c_writer.v.bak_before_128bit`) đã bị commit/push lên GitHub luôn (do GitHub Desktop tự gộp commit tất cả file còn lại). Chúng vẫn đang tồn tại trong repo — chỉ là **đừng copy chúng vào 2 thư mục agent**, không phải là chúng đã bị xóa khỏi repo gốc.
 
 **Nhiệm vụ của bạn:** Copy các file từ repo gốc trên vào 2 thư mục đích theo danh sách dưới đây, giữ nguyên đường dẫn con (cấu trúc thư mục bên trong mỗi nhóm), **không xóa file gốc** (chỉ copy, không move) trừ khi được yêu cầu rõ. Nếu thư mục đích chưa tồn tại thì tạo mới.
 
