@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "docs-static-server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["docs/_cors_server.py"],
+      "port": 8743
+    }
+  ]
+}
